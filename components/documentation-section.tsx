@@ -21,18 +21,18 @@ export default function DocumentationSection() {
 
   const cards = [
     {
-      title: "Plan your schedules",
-      description: "Explore your data, build your dashboard,\nbring your team together.",
+      title: "일정 계획하기",
+      description: "데이터를 탐색하고 대시보드를 구축하며\n팀을 하나로 모으세요.",
       image: "/modern-dashboard-interface-with-data-visualization.jpg",
     },
     {
-      title: "Data to insights in minutes",
-      description: "Transform raw data into actionable insights\nwith powerful analytics tools.",
+      title: "몇 분 만에 데이터를 인사이트로",
+      description: "강력한 분석 도구로 원시 데이터를\n실행 가능한 인사이트로 전환하세요.",
       image: "/analytics-dashboard.png",
     },
     {
-      title: "Collaborate seamlessly",
-      description: "Work together in real-time with your team\nand share insights instantly.",
+      title: "원활한 협업",
+      description: "팀과 실시간으로 함께 작업하고\n인사이트를 즉시 공유하세요.",
       image: "/team-collaboration-interface-with-shared-workspace.jpg",
     },
   ]
@@ -60,15 +60,15 @@ export default function DocumentationSection() {
             icon={
               <div className="w-[10.50px] h-[10.50px] outline outline-[1.17px] outline-[#37322F] outline-offset-[-0.58px] rounded-full"></div>
             }
-            text="Platform Features"
+            text="플랫폼 기능"
           />
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Streamline your business operations
+            비즈니스 운영 간소화
           </div>
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Manage schedules, analyze data, and collaborate with your team
+            일정 관리, 데이터 분석, 팀 협업을
             <br />
-            all in one powerful platform.
+            하나의 강력한 플랫폼에서 모두 처리하세요.
           </div>
         </div>
       </div>

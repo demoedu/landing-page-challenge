@@ -39,20 +39,20 @@ export default function PricingSection() {
               </svg>
             </div>
             <div className="text-center flex justify-center flex-col text-[#37322F] text-xs font-medium leading-3 font-sans">
-              Plans & Pricing
+              요금제 및 가격
             </div>
           </div>
 
           {/* Title */}
           <div className="self-stretch text-center flex justify-center flex-col text-[#49423D] text-3xl md:text-5xl font-semibold leading-tight md:leading-[60px] font-sans tracking-tight">
-            Choose the perfect plan for your business
+            비즈니스에 완벽한 요금제 선택
           </div>
 
           {/* Description */}
           <div className="self-stretch text-center text-[#605A57] text-base font-normal leading-7 font-sans">
-            Scale your operations with flexible pricing that grows with your team.
+            팀과 함께 성장하는 유연한 가격으로 운영을 확장하세요.
             <br />
-            Start free, upgrade when you're ready.
+            무료로 시작하고, 준비가 되면 업그레이드하세요.
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ export default function PricingSection() {
                   billingPeriod === "annually" ? "text-[#37322F]" : "text-[#6B7280]"
                 }`}
               >
-                Annually
+                연간
               </div>
             </button>
 
@@ -93,7 +93,7 @@ export default function PricingSection() {
                   billingPeriod === "monthly" ? "text-[#37322F]" : "text-[#6B7280]"
                 }`}
               >
-                Monthly
+                월간
               </div>
             </button>
           </div>
@@ -128,9 +128,9 @@ export default function PricingSection() {
               {/* Plan Header */}
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Starter</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">스타터</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Perfect for individuals and small teams getting started.
+                    시작하는 개인 및 소규모 팀에 완벽합니다.
                   </div>
                 </div>
 
@@ -162,7 +162,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#847971] text-sm font-medium font-sans">
-                      per {billingPeriod === "monthly" ? "month" : "year"}, per user.
+                      사용자당 {billingPeriod === "monthly" ? "월" : "연"}.
                     </div>
                   </div>
                 </div>
@@ -170,18 +170,18 @@ export default function PricingSection() {
                 <div className="self-stretch px-4 py-[10px] relative bg-[#37322F] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0.20)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                   <div className="max-w-[108px] flex justify-center flex-col text-[#FBFAF9] text-[13px] font-medium leading-5 font-sans">
-                    Start for free
+                    무료로 시작하기
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Up to 3 projects",
-                  "Basic documentation tools",
-                  "Community support",
-                  "Standard templates",
-                  "Basic analytics",
+                  "최대 3개 프로젝트",
+                  "기본 문서화 도구",
+                  "커뮤니티 지원",
+                  "표준 템플릿",
+                  "기본 분석",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -208,9 +208,9 @@ export default function PricingSection() {
               {/* Plan Header */}
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">Professional</div>
+                  <div className="text-[#FBFAF9] text-lg font-medium leading-7 font-sans">프로페셔널</div>
                   <div className="w-full max-w-[242px] text-[#B2AEA9] text-sm font-normal leading-5 font-sans">
-                    Advanced features for growing teams and businesses.
+                    성장하는 팀과 비즈니스를 위한 고급 기능.
                   </div>
                 </div>
 
@@ -242,7 +242,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#D2C6BF] text-sm font-medium font-sans">
-                      per {billingPeriod === "monthly" ? "month" : "year"}, per user.
+                      사용자당 {billingPeriod === "monthly" ? "월" : "연"}.
                     </div>
                   </div>
                 </div>
@@ -251,21 +251,21 @@ export default function PricingSection() {
                 <div className="self-stretch px-4 py-[10px] relative bg-[#FBFAF9] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                   <div className="max-w-[108px] flex justify-center flex-col text-[#37322F] text-[13px] font-medium leading-5 font-sans">
-                    Get started
+                    시작하기
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Unlimited projects",
-                  "Advanced documentation tools",
-                  "Priority support",
-                  "Custom templates",
-                  "Advanced analytics",
-                  "Team collaboration",
-                  "API access",
-                  "Custom integrations",
+                  "무제한 프로젝트",
+                  "고급 문서화 도구",
+                  "우선 지원",
+                  "맞춤형 템플릿",
+                  "고급 분석",
+                  "팀 협업",
+                  "API 액세스",
+                  "맞춤형 통합",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">
@@ -290,9 +290,9 @@ export default function PricingSection() {
               {/* Plan Header */}
               <div className="self-stretch flex flex-col justify-start items-center gap-9">
                 <div className="self-stretch flex flex-col justify-start items-start gap-2">
-                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">Enterprise</div>
+                  <div className="text-[rgba(55,50,47,0.90)] text-lg font-medium leading-7 font-sans">엔터프라이즈</div>
                   <div className="w-full max-w-[242px] text-[rgba(41,37,35,0.70)] text-sm font-normal leading-5 font-sans">
-                    Complete solution for large organizations and enterprises.
+                    대규모 조직 및 기업을 위한 완전한 솔루션.
                   </div>
                 </div>
 
@@ -324,7 +324,7 @@ export default function PricingSection() {
                       </span>
                     </div>
                     <div className="text-[#847971] text-sm font-medium font-sans">
-                      per {billingPeriod === "monthly" ? "month" : "year"}, per user.
+                      사용자당 {billingPeriod === "monthly" ? "월" : "연"}.
                     </div>
                   </div>
                 </div>
@@ -332,21 +332,21 @@ export default function PricingSection() {
                 <div className="self-stretch px-4 py-[10px] relative bg-[#37322F] shadow-[0px_2px_4px_rgba(55,50,47,0.12)] overflow-hidden rounded-[99px] flex justify-center items-center">
                   <div className="w-full h-[41px] absolute left-0 top-[-0.5px] bg-gradient-to-b from-[rgba(255,255,255,0.20)] to-[rgba(0,0,0,0.10)] mix-blend-multiply"></div>
                   <div className="max-w-[108px] flex justify-center flex-col text-[#FBFAF9] text-[13px] font-medium leading-5 font-sans">
-                    Contact sales
+                    영업팀 문의
                   </div>
                 </div>
               </div>
 
               <div className="self-stretch flex flex-col justify-start items-start gap-2">
                 {[
-                  "Everything in Professional",
-                  "Dedicated account manager",
-                  "24/7 phone support",
-                  "Custom onboarding",
-                  "Advanced security features",
-                  "SSO integration",
-                  "Custom contracts",
-                  "White-label options",
+                  "프로페셔널의 모든 기능",
+                  "전담 계정 관리자",
+                  "연중무휴 전화 지원",
+                  "맞춤형 온보딩",
+                  "고급 보안 기능",
+                  "SSO 통합",
+                  "맞춤형 계약",
+                  "화이트 라벨 옵션",
                 ].map((feature, index) => (
                   <div key={index} className="self-stretch flex justify-start items-center gap-[13px]">
                     <div className="w-4 h-4 relative flex items-center justify-center">

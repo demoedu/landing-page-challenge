@@ -9,34 +9,34 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What is Brillance and who is it for?",
+    question: "Brillance란 무엇이며 누구를 위한 것인가요?",
     answer:
-      "Brillance is a comprehensive billing automation platform designed for businesses that need custom contract management. It's perfect for SaaS companies, service providers, and enterprises looking to streamline their billing processes.",
+      "Brillance는 맞춤형 계약 관리가 필요한 비즈니스를 위해 설계된 포괄적인 청구 자동화 플랫폼입니다. SaaS 기업, 서비스 제공업체, 청구 프로세스를 간소화하려는 기업에 완벽합니다.",
   },
   {
-    question: "How does the custom contract billing work?",
+    question: "맞춤형 계약 청구는 어떻게 작동하나요?",
     answer:
-      "Our platform automatically processes your custom contracts, calculates billing amounts based on your specific terms, and generates invoices. You can set up complex pricing structures, usage-based billing, and custom billing cycles.",
+      "플랫폼이 맞춤형 계약을 자동으로 처리하고, 특정 조건에 따라 청구 금액을 계산하며, 송장을 생성합니다. 복잡한 가격 구조, 사용량 기반 청구, 맞춤형 청구 주기를 설정할 수 있습니다.",
   },
   {
-    question: "Can I integrate Brillance with my existing tools?",
+    question: "Brillance를 기존 도구와 통합할 수 있나요?",
     answer:
-      "Yes! Brillance integrates seamlessly with popular CRM systems, accounting software, and payment processors. We support APIs and webhooks for custom integrations with your existing workflow.",
+      "네! Brillance는 인기 있는 CRM 시스템, 회계 소프트웨어, 결제 프로세서와 원활하게 통합됩니다. 기존 워크플로우와의 맞춤형 통합을 위해 API 및 웹훅을 지원합니다.",
   },
   {
-    question: "What kind of support do you provide?",
+    question: "어떤 지원을 제공하나요?",
     answer:
-      "We offer 24/7 customer support, dedicated account managers for enterprise clients, comprehensive documentation, and onboarding assistance to help you get started quickly.",
+      "연중무휴 고객 지원, 엔터프라이즈 고객을 위한 전담 계정 관리자, 포괄적인 문서, 빠른 시작을 위한 온보딩 지원을 제공합니다.",
   },
   {
-    question: "Is my data secure with Brillance?",
+    question: "Brillance에서 내 데이터는 안전한가요?",
     answer:
-      "Absolutely. We use enterprise-grade security measures including end-to-end encryption, SOC 2 compliance, and regular security audits. Your data is stored in secure, redundant data centers.",
+      "물론입니다. 엔드투엔드 암호화, SOC 2 규정 준수, 정기적인 보안 감사를 포함한 엔터프라이즈급 보안 조치를 사용합니다. 데이터는 안전하고 중복된 데이터 센터에 저장됩니다.",
   },
   {
-    question: "How do I get started with Brillance?",
+    question: "Brillance를 어떻게 시작하나요?",
     answer:
-      "Getting started is simple! Sign up for our free trial, connect your existing systems, and our onboarding team will help you set up your first custom billing workflow within 24 hours.",
+      "시작하기 간단합니다! 무료 평가판에 가입하고 기존 시스템을 연결하면, 온보딩 팀이 24시간 내에 첫 번째 맞춤형 청구 워크플로우를 설정하는 데 도움을 드립니다.",
   },
 ]
 
@@ -68,12 +68,12 @@ export default function FAQSection() {
         {/* Left Column - Header */}
         <div className="w-full lg:flex-1 flex flex-col justify-center items-start gap-4 lg:py-5">
           <div className="w-full flex flex-col justify-center text-[#49423D] font-semibold leading-tight md:leading-[44px] font-sans text-4xl tracking-tight">
-            Frequently Asked Questions
+            자주 묻는 질문
           </div>
           <div className="w-full text-[#605A57] text-base font-normal leading-7 font-sans">
-            Explore your data, build your dashboard,
+            데이터를 탐색하고 대시보드를 구축하며
             <br className="hidden md:block" />
-            bring your team together.
+            팀을 하나로 모으세요.
           </div>
         </div>
 

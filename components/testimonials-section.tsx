@@ -22,25 +22,25 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "In just a few minutes, we transformed our data into actionable insights. The process was seamless and incredibly efficient!",
+        "단 몇 분 만에 데이터를 실행 가능한 인사이트로 전환했습니다. 프로세스가 매끄럽고 믿을 수 없을 만큼 효율적이었습니다!",
       name: "Jamie Marshall",
-      company: "Co-founder, Exponent",
+      company: "공동 창업자, Exponent",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_35_19%20AM-z4zSRLsbOQDp7MJS1t8EXmGNB6Al9Z.png",
     },
     {
       quote:
-        "Brillance has revolutionized how we handle custom contracts. The automation saves us hours every week and eliminates errors completely.",
+        "Brillance는 우리가 맞춤형 계약을 처리하는 방식을 혁신했습니다. 자동화 덕분에 매주 몇 시간을 절약하고 오류를 완전히 제거할 수 있었습니다.",
       name: "Sarah Chen",
-      company: "VP Operations, TechFlow",
+      company: "운영 부사장, TechFlow",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2010_54_18%20AM-nbiecp92QNdTudmCrHr97uekrIPzCP.png",
     },
     {
       quote:
-        "The billing automation is a game-changer. What used to take our team days now happens automatically with perfect accuracy.",
+        "청구 자동화는 게임 체인저입니다. 팀이 며칠씩 걸리던 일이 이제 완벽한 정확도로 자동으로 처리됩니다.",
       name: "Marcus Rodriguez",
-      company: "Finance Director, InnovateCorp",
+      company: "재무 이사, InnovateCorp",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ChatGPT%20Image%20Sep%2011%2C%202025%2C%2011_01_05%20AM-TBOe92trRxKn4G5So1m9D2h7LRH4PG.png",
     },

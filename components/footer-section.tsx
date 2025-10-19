@@ -9,7 +9,7 @@ export default function FooterSection() {
             <div className="text-center text-[#49423D] text-xl font-semibold leading-4 font-sans">Brillance</div>
           </div>
           <div className="text-[rgba(73,66,61,0.90)] text-sm font-medium leading-[18px] font-sans">
-            Coding made effortless
+            손쉬운 청구 자동화
           </div>
 
           {/* Social Media Icons */}
@@ -59,67 +59,67 @@ export default function FooterSection() {
           {/* Product Column */}
           <div className="flex flex-col justify-start items-start gap-3 flex-1 min-w-[120px]">
             <div className="self-stretch text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">
-              Product
+              제품
             </div>
             <div className="flex flex-col justify-end items-start gap-2">
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Features
+                기능
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Pricing
+                요금제
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Integrations
+                통합
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Real-time Previews
+                실시간 미리보기
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Multi-Agent Coding
+                멀티 에이전트 코딩
               </div>
             </div>
           </div>
 
           {/* Company Column */}
           <div className="flex flex-col justify-start items-start gap-3 flex-1 min-w-[120px]">
-            <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">Company</div>
+            <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">회사</div>
             <div className="flex flex-col justify-center items-start gap-2">
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                About us
+                회사 소개
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Our team
+                팀
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Careers
+                채용
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Brand
+                브랜드
               </div>
               <div className="text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Contact
+                문의
               </div>
             </div>
           </div>
 
           {/* Resources Column */}
           <div className="flex flex-col justify-start items-start gap-3 flex-1 min-w-[120px]">
-            <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">Resources</div>
+            <div className="text-[rgba(73,66,61,0.50)] text-sm font-medium leading-5 font-sans">리소스</div>
             <div className="flex flex-col justify-center items-center gap-2">
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Terms of use
+                이용 약관
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                API Reference
+                API 문서
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Documentation
+                문서
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Community
+                커뮤니티
               </div>
               <div className="self-stretch text-[#49423D] text-sm font-normal leading-5 font-sans cursor-pointer hover:text-[#37322F] transition-colors">
-                Support
+                지원
               </div>
             </div>
           </div>

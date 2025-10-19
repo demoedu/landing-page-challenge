@@ -19,10 +19,10 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Brillance - Effortless Custom Contract Billing",
+  title: "Brillance - 손쉬운 맞춤형 계약 청구",
   description:
-    "Streamline your billing process with seamless automation for every custom contract, tailored by Brillance.",
-    generator: 'v0.app'
+    "Brillance가 제공하는 모든 맞춤형 계약에 대한 원활한 자동화로 청구 프로세스를 간소화하세요.",
+  generator: 'v0.app'
 }
 
 export default function RootLayout({
@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${instrumentSerif.variable} antialiased`}>
+    <html lang="ko" className={`${inter.variable} ${instrumentSerif.variable} antialiased`}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
